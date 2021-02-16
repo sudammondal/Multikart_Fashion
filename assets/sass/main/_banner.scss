@@ -1,0 +1,93 @@
+.banner_slide {
+    overflow: hidden;
+    margin-bottom: 30px;
+    .banner_worp {
+        background-image: url(../imgs/banner.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 208px 0 198px;
+        .banner {
+            text-align: center;
+            .main_banner {
+                .banerHed {
+                    font-size: 60px;
+                    color: #111;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+                .banner_pra {
+                    font-weight: 700;
+                    letter-spacing: 0.4em;
+                    color: #111;
+                    font-size: 18px;
+                }
+                .banner_pra3 {
+                    margin-left: auto;
+                }
+                .banner_button { 
+                    margin-top: 20px;
+                    padding: 13px 29px;
+                    color: #fff;
+                    letter-spacing: 0.05em;
+                    border: 2px solid #ff4c3b;
+                    background-image: linear-gradient(30deg,#ff4c3b 50%, transparent 50%);
+                    background-size: 540px;
+                    background-repeat: no-repeat;
+                    background-position: 0;
+                    transition: background 300ms ease-in-out;
+                    &:hover {
+                        background-position: 100%;
+                        color: #000000;
+                        background-color: #ffffff;
+                        transition: .3s ease-in-out;
+
+                    }
+                }
+               
+            }
+        }
+    }
+    .banner_worp2 {
+        background-image: url(../imgs/banner2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 208px 0 198px;
+    }
+    .slick-arrow {
+        z-index: 3;
+        width: 40px;
+        height: 40px;
+        transition: all 0.5s;
+        opacity: 0;
+        visibility: hidden;
+        &::before {
+            font-family: 'FontAwesome';
+            font-size: 40px;
+            transition: all 0.5s;
+            color: #000;
+        }
+        &.slick-prev {
+            left: 10px;
+        }
+        &.slick-next {
+            right: 10px;
+        }
+    }
+   
+    &:hover {
+        .slick-arrow {
+            opacity: 1;
+            visibility: visible;
+            &.slick-prev {
+                left: 25px;
+            }
+            &.slick-next {
+                right: 25px;
+            }
+        }
+    }
+}

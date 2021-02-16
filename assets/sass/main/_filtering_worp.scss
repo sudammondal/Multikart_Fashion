@@ -1,0 +1,26 @@
+.filtering_worp {
+    .filter_button{ 
+        .parteflo_button {  
+            margin-bottom: 40px;
+            text-align: center;
+            .btun_deful {
+                color: #2d2a25;
+                border: 1px solid #2d2a25;
+                background: transparent;
+                text-transform: uppercase;
+                transition: 0.5s ease;
+                padding: 5px 15px;
+                outline: none;
+                margin: 0 5px;
+                font-size: 18px;
+                transition: all 0.5s ease;
+                &:hover,
+                &.active { 
+                    background-color: #e55f4a;
+                    color: #fff;
+                    border: 1px solid #e55f4a;
+                }
+            }
+        }
+    }
+}

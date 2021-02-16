@@ -1,0 +1,72 @@
+.seavice_worp {
+    margin-bottom: 70px;
+    .srvice {
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 35px 0;
+        
+        .boder_right{ 
+            border-right: 1px solid #ddd;
+        } 
+        .media{  
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 23px;
+            padding-bottom: 23px;
+            .lazy_loaded {
+                margin-right: 10px;
+                -webkit-transform: perspective(1px) translateZ(1);
+                transform: perspective(1px) translateZ(1);
+                box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            }
+            .media-body{
+                .lang_trans {
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    letter-spacing: 0.03em;
+                    line-height: 1; 
+                    transition: all 0.9s ease;
+                }
+                .lang_transp {
+                    font-size: 14px;
+                    color: #777;
+                    line-height: 1;
+                    text-transform: capitalize;
+                    margin-bottom: 0;
+                }
+                &:hover {
+                    .lang_trans {
+                        color: #ff4c3b;
+                    }
+                }
+            }
+            &:hover {
+                .lazy_loaded {
+                    -webkit-animation-name: button-push;
+                    animation-name: button-push;
+                    -webkit-animation-duration: 0.9s;
+                    animation-duration: 0.9s;
+                    -webkit-animation-timing-function: linear;
+                    animation-timing-function: linear;
+                    -webkit-animation-iteration-count: 1;
+                    animation-iteration-count: 1;
+                }
+               
+            }
+        }
+        @keyframes button-push {
+            50% {
+                -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+       
+    }
+}

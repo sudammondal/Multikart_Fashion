@@ -1,0 +1,160 @@
+.new_fashion {
+    margin-bottom: 70px;
+    .fasion_main{
+        .shopbody {
+            margin: 0px 5px 20px 5px;
+            .shope_main {
+                position: relative;
+                .lable_block {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .lable3 {
+                        border-radius: 100%;
+                        background-color: #ff4c3b;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 700;
+                        position: absolute;
+                        padding: 12px 6px;
+                        text-transform: uppercase;
+                        color: #fff;
+                        top: 7px;
+                        left: 7px;
+                        z-index: 1;
+
+                    }
+                    .lable4 {
+                        position: absolute;
+                        font-size: 14px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        writing-mode: vertical-rl;
+                        transform: rotate(-180deg);
+                        top: 7px;
+                        right: 7px;
+                        letter-spacing: 0.1em;
+                        z-index: 1;
+                        padding: 8px 0px;
+                        border-radius: 0;
+                        background-color: rgba(0,0,0,0);
+                        color: #555555;
+                    }
+                }
+                .shope_img {
+                    .over_flow {
+                        outline: none;
+                        overflow: hidden;
+                        img {
+                            max-width: 100%;
+                            width: 100%;
+                        }
+                    }
+                }
+                .shop_icons_main {
+                    position: absolute;
+                    bottom: 0;
+                    right: -10px;
+                    opacity: 0;
+                    visibility: hidden;
+                    z-index: 0;
+                    transition:  all 0.5s ease;
+                    li {
+                        outline: none;
+                        margin: 10px;
+                        .btn_icon {
+                            color: #6f6f6f;
+                            font-size: 18px;
+                            outline: none;
+                            &:hover {
+                                color: #ff4c3b;
+                            }
+                        }
+                    }
+                }
+            }
+            .starHead {
+                .star_hed {
+                    line-height: 1;
+                    margin-bottom: 0;
+                    padding-top: 2px;
+                    padding-bottom: 5px;
+                    transition: all 0.5s ease;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #777;
+                }
+                .star_main {
+                    .Italic {
+                        .money {
+                            font-size: 18px;
+                            color: #222;
+                            font-weight: 700;
+                            margin-bottom: 0;
+                            transition: all 0.5s ease;
+                        }
+                        del{ 
+                            color: #aaa;
+                            font-size: 14px;
+                            padding-left: 5px;
+                        }
+                    } 
+                   
+                }
+            } 
+            .color_variant {
+                .grid_swatch {
+                    border-radius: 100%;
+                    display: inline-block;
+                    height: 22px;
+                    width: 22px;
+                    margin-right: 5px;
+                    transition: all 0.1s ease;
+                    cursor: pointer; 
+                    border: 1px solid #aaa;
+                    &.black {
+                        background-color: #111;
+                    }
+                    &.green {
+                        background-color: #74e765;
+                    }
+                    &.white {
+                        background-color: #fff;
+                    }
+                    &.red {
+                        background-color: #ff4c3b;
+                    }
+                    &.yellow {
+                        background-color: #eeeb44;
+                    }
+                    &.sweet {
+                        background-color: #dd933e;
+                    }
+                    &.koiree {
+                        background-color: #777679;
+                    }
+                }
+            }
+            &:hover {
+                .shope_main {
+                    .shop_icons_main {
+                        transition:  all 0.5s ease;
+                        opacity: 1;
+                        visibility: visible;
+                        z-index: 1;
+                        right: 0px;
+                    }
+                }
+            }
+        }
+    }
+  
+}
+.slick-initialized {
+    .slick-slide {
+        outline: none;
+    }
+}

@@ -1,0 +1,40 @@
+.fashan_2021 {
+    background-image: url(../imgs/background_21.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    padding: 190px 0px;
+    background-attachment: fixed;
+    .banner_contain {
+        text-align: center;
+        .lang_trans {
+            color: #ff4c3b;
+            font-size: 90px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-top: -15px;
+            line-height: 1;
+            letter-spacing: 0.02em;
+        }
+        .lang_trans3 {
+            color: #111111;
+            font-size: 55px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+
+        }
+        .lang_trans4{
+            color: #aaaaaa;
+            font-size: 24px;
+            padding-top: 8px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5em;
+            padding-top: 10px;
+            margin-bottom: 0;
+
+        }
+    }
+}

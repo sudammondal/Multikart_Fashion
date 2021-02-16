@@ -1,0 +1,47 @@
+.collection_main {
+    margin-bottom: 200px;
+    a {
+        display: block;
+        width: 100%;
+        height: auto;
+        .cllti_img {
+            position: relative;
+            overflow: hidden;
+            .cll_img {
+                transition: all 0.5s ease;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+            .cll_head {
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50px);
+                float: right;
+                margin-right:75px;
+                .lang_trans {
+                    color: #ff4c3b;
+                    letter-spacing: 0.01em;
+                    font-size: 18px;
+                    line-height: 1;
+                    margin: 0;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-family: 'Lato', sans-serif;
+                }
+                .lang_transH {
+                    color: #222222; 
+                    font-size: 55px;
+                    letter-spacing: 0.01em;
+                    font-weight: 700;
+                    line-height: 1;  
+                    text-transform: uppercase;
+                    font-family: 'Lato', sans-serif; 
+                    margin: 0;
+                }
+            }
+           
+        }
+    }
+}
