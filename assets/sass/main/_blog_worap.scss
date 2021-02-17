@@ -1,7 +1,10 @@
 .blog_worap {
     margin-bottom: 6px;
     .bolog_slidmain {
-        .classic {
+        .ctm_margin {
+            margin: 0 15px !important;
+        }
+        .classic { 
             position: relative;
             overflow: hidden;
             width: 100%;
@@ -94,7 +97,7 @@
         .blog_details {
             text-align: center;
             margin-top: 15px;
-            time {
+            .time {
                 color: #ff4c3b;
                 margin-top: 25px;
                 line-height: 1;
@@ -135,7 +138,4 @@
             }
         }
     }
-}
-.slick-slide {
-    margin: 0 15px;
 }

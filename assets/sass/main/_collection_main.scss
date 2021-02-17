@@ -1,5 +1,5 @@
 .collection_main {
-    margin-bottom: 200px;
+    margin-bottom: 60px;
     a {
         display: block;
         width: 100%;
@@ -17,7 +17,7 @@
                 position: absolute;
                 top: 50%;
                 right: 0;
-                transform: translateY(-50px);
+                transform: translateY(-50%);
                 float: right;
                 margin-right:75px;
                 .lang_trans {
