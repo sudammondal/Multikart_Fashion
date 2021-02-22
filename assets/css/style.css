@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 .header .nav_head .nav_btn .bar {
   width: 100%;
   height: 2px;
-  background-color: #5c62cb;
+  background-color: #ff4c3b;
   position: absolute;
   right: 0;
   display: block;
@@ -1091,6 +1091,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .Brand_worp .brand_slider .brand .brand_imgs {
     width: 135px;
+    margin: 0 auto;
   }
 
   .newsletter_worp .subscribe {
@@ -1105,6 +1106,99 @@ h1, h2, h3, h4, h5, h6 {
 
   .newsletter_worp .subscribe .form_inline .form_group .btn_solid {
     padding: 10px 25px;
+  }
+}
+@media (max-width: 667px) {
+  .newsletter_worp .subscribe .form_inline .form_group .required_mail {
+    max-width: 190px;
+  }
+}
+@media (max-width: 736px) {
+  .collection_main a .cllti_img {
+    margin-bottom: 15px;
+  }
+
+  .filtering_worp .filter_button .parteflo_button .btun_deful {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .seavice_worp .srvice .boder_right {
+    display: none;
+  }
+
+  .footer_top .footer_list {
+    margin-bottom: 15px;
+  }
+
+  .footer_top {
+    text-align: center;
+  }
+
+  .footer_top .f_iconmain {
+    justify-content: center;
+  }
+
+  .footer .FT_text .footer_P {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .footer .list_unstyled {
+    float: initial;
+    justify-content: center;
+  }
+}
+@media (max-width: 420px) {
+  .banner_slide:hover .slick-arrow.slick-next {
+    display: none;
+  }
+
+  .banner_slide:hover .slick-arrow.slick-prev {
+    display: none;
+  }
+
+  .collection_main a .cllti_img {
+    margin-bottom: 15px;
+  }
+
+  .text-warning {
+    display: none;
+  }
+
+  .new_fashion .fasion_main .shopbody .shope_main .lable_block .lable3 {
+    font-size: 11px;
+    padding: 7px 2px;
+  }
+
+  .filtering_worp .filter_button .parteflo_button .btun_deful {
+    margin-bottom: 10px;
+  }
+
+  .newsletter_worp .subscribe .form_inline .form_group .required_mail {
+    margin-bottom: 10px;
+  }
+
+  .footer_top .footer_list {
+    margin-bottom: 15px;
+  }
+
+  .footer_top {
+    text-align: center;
+  }
+
+  .footer_top .f_iconmain {
+    justify-content: center;
+  }
+
+  .footer .FT_text .footer_P {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .footer .list_unstyled {
+    float: initial;
+    justify-content: center;
   }
 }
 @media (max-width: 375px) {
@@ -1129,7 +1223,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .newsletter_worp .subscribe .form_inline .form_group .required_mail {
     width: 173px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   .filtering_worp .filter_button .parteflo_button .btun_deful {
@@ -1166,5 +1260,10 @@ h1, h2, h3, h4, h5, h6 {
   .footer .list_unstyled {
     float: initial;
     justify-content: center;
+  }
+}
+@media (max-width: 320px) {
+  .newsletter_worp .subscribe .form_inline .form_group .required_mail {
+    margin-bottom: 10px;
   }
 }
