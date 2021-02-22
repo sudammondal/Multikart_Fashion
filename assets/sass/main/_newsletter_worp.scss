@@ -35,6 +35,9 @@
                   background-clip: padding-box;
                   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
                   margin: 0 15px;
+                  &:focus {
+                    box-shadow: none;
+                  }
               }
               .btn_solid {
                   outline: none;
@@ -54,6 +57,9 @@
                       background-color: #ffffff;
                       transition: .3s ease-in-out;
 
+                  }
+                  &:focus {
+                    box-shadow: none;
                   }
                   
               }

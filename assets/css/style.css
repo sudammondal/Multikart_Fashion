@@ -801,9 +801,11 @@ h1, h2, h3, h4, h5, h6 {
 .Brand_worp .brand_slider {
   margin: 0;
 }
+.Brand_worp .brand_slider .brand {
+  margin: 0 auto;
+}
 .Brand_worp .brand_slider .brand .brand_imgs {
   position: relative;
-  width: 100%;
   padding: 0 15px;
   filter: grayscale(100%);
   opacity: 0.5;
@@ -854,6 +856,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   margin: 0 15px;
 }
+.newsletter_worp .subscribe .form_inline .form_group .required_mail:focus {
+  box-shadow: none;
+}
 .newsletter_worp .subscribe .form_inline .form_group .btn_solid {
   outline: none;
   padding: 13px 29px;
@@ -872,6 +877,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
   background-color: #ffffff;
   transition: 0.3s ease-in-out;
+}
+.newsletter_worp .subscribe .form_inline .form_group .btn_solid:focus {
+  box-shadow: none;
 }
 
 .footer_top {
