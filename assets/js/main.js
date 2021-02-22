@@ -52,7 +52,7 @@ $(document).ready(function() {
         ]
     });
     $('.bolog_slidmain').slick({
-        arrows: true,
+        arrows: false,
         autoplay: false,
         dots: true,
         infinite: true,
@@ -91,7 +91,7 @@ $(document).ready(function() {
         ]
     });
     $('.brand_slider').slick({
-        arrows: true,
+        arrows: false,
         autoplay: true,
         dots: true,
         infinite: true,
